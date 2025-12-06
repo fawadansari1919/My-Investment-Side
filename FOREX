@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Demo Investment Course & Education</title>
+  <style>
+    body{font-family: "Noto Naskh Arabic", Arial, sans-serif; margin:0; padding:0; background:#f6f7fb; color:#111;}
+    header{background:#0b4a6f;color:white;padding:28px 20px;text-align:center}
+    .container{max-width:1000px;margin:24px auto;padding:0 16px}
+    .card{background:white;border-radius:10px;padding:18px;margin-bottom:16px;box-shadow:0 6px 18px rgba(10,20,40,0.06)}
+    .btn{display:inline-block;padding:10px 16px;border-radius:8px;background:#0b4a6f;color:white;text-decoration:none}
+    footer{padding:18px;text-align:center;color:#666;font-size:14px}
+    ul{padding-left:18px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Investment Education & Demo Accounts</h1>
+    <p>حقیقی رقم لینے سے پہلے سیکھیں — ڈیلی گارنٹیڈ منافع کے دعوؤں سے پرہیز کریں</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>ہم کیا فراہم کرتے ہیں</h2>
+      <ul>
+        <li>آن لائن کلاسز: ICT، Liquidity، SND، QM وغیرہ</li>
+        <li>ڈیمو ٹریڈنگ اکاؤنٹس — حقیقی پیسے کے بغیر مشق</li>
+        <li>روزانہ کے تعلیمی نوٹس اور مارکیٹ تجزیے</li>
+        <li>پریمیم آلات اور سگنلز (تعلیمی مقصد کے لیے)</li>
+      </ul>
+      <a class="btn" href="#signup">ڈیمو کیلئے سائن اپ کریں</a>
+    </div>
+
+    <div class="card">
+      <h2 id="signup">ڈیمو اکاؤنٹ / کورس میں شامل ہوں</h2>
+      <p>یہ ڈیمو صرف تعلیمی مقاصد کے لیے ہے — اس میں حقیقی فنڈ شامل نہیں ہوتے۔</p>
+      <form onsubmit="alert('Demo signup received — this is a placeholder.'); return false;">
+        <label>نام:<br><input required style="width:100%;padding:8px;border-radius:6px;border:1px solid #ddd"></label><br><br>
+        <label>فون/ای میل:<br><input required style="width:100%;padding:8px;border-radius:6px;border:1px solid #ddd"></label><br><br>
+        <button class="btn" type="submit">سبمٹ کریں</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h2>اہم فارمز اور ڈسکلیمر</h2>
+      <p><strong>نوٹ:</strong> ہم یہاں کسی کو بھی 'گارنٹیڈ روزانہ منافع' کا وعدہ نہیں کرتے۔ سرمایہ کاری میں نقصان کا خدشہ موجود ہوتا ہے۔ حقیقی رقم کے معاملات قانونی لائسنس، KYC اور مناسب رجسٹریشن کے بغیر نہیں چلائے جائیں گے۔</p>
+    </div>
+
+    <div class="card">
+      <h2>FAQ</h2>
+      <ul>
+        <li><strong>کیا آپ حقیقی پیسے لے کر ٹریڈ کریں گے؟</strong> — فی الحال نہیں؛ ہم صرف ڈیمو اور تعلیمی خدمات فراہم کرتے ہیں۔</li>
+        <li><strong>کیا آپ منافع کی ضمانت دیتے ہیں؟</strong> — ہرگز نہیں۔ سرمایہ کاری میں رسک ہوتا ہے۔</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    © <span id="year"></span> آپ کی کمپنی — تمام حقوق محفوط۔ مزید قانونی معلومات کے لئے رابطہ کریں۔
+  </footer>
+
+  <script>document.getElementById('year').innerText = new Date().getFullYear();</script>
+</body>
+</html>
